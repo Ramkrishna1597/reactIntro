@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { ListWithStyle } from "./components/ListWithStyle.jsx";
+import { ListWithStyle} from "./components/items";
 
 const linkArr = ["Services", "Projects", "About"];
 
@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
        <nav className="navbar">
-        <div className="brand">LOGOBAKERY</div>
+        <div className="logo">LOGOBAKERY</div>
         <ul className="navlinks">
           {linkArr.map((e) => {
             return (
@@ -38,7 +38,7 @@ function App() {
             );
           })}
         </ul>
-        <button className="navbtn">Contact</button>
+        <button className="contact">Contact</button>
       </nav>
       <div className="container">
         

@@ -7,14 +7,17 @@ body{
 .navbar{
   display:flex;
   align-items: center;
-  height:100px;
+  height:80px;
   background-color: rgb(11, 24, 35);
   color: white;
   justify-content: space-around;
+  margin:auto;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.brand{
-  font-size: 40px;
+.logo{
+  font-size: 30px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -31,10 +34,10 @@ body{
   cursor: pointer;
 }
 
-.navbtn{
+.contact{
   color:white;
   height:fit-content;
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(0,137,166);
   font-weight:bold;
   font-size: 20px;
   padding:10px 20px;

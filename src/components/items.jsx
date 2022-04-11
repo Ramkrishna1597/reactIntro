@@ -11,4 +11,4 @@ function ListWithStyle({ title, type }) {
 
 
 
-export { ListWithStyle }
+export { ListWithStyle}
